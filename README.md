@@ -3,10 +3,10 @@
 ## Usage
 
 1. Add or update a Helm chart: push your source code of Helm chart under `charts/<your chart>`
-1. New release will be created by [GitHub Actions](https://github.com/nakamasato/helm-charts/blob/main/.github/workflows/release.yaml) (e.g. https://github.com/nakamasato/helm-charts/releases/tag/mysql-operator-0.1.0)
+1. New release will be created by [GitHub Actions](https://github.com/osmidhun/helm-charts/blob/main/.github/workflows/release.yaml) (e.g. https://github.com/osmidhun/helm-charts/releases/tag/mysql-operator-0.1.0)
 1. Add this helm chart repo to your helm client configuration
     ```
-    helm repo add nakamasato https://nakamasato.github.io/helm-charts
+    helm repo add midhun https://osmidhun.github.io/helm-charts
     helm repo update
     ```
 1. Update repo and search
